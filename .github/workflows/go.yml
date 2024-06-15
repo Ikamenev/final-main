@@ -1,7 +1,5 @@
 name: final-pipeline
 on: push
-branches: ["main"]
-tags: '*'
 jobs:
   test:
     runs-on: ubuntu-latest
